@@ -15,7 +15,7 @@ pip install unicodedata
 pip install random
 ```
 Use the example praw.ini file, rename it to 'praw.ini' and fill out the necessary information. You can get your client id and client secret from https://ssl.reddit.com/prefs/apps/
-With the help of the get_secret.py file, you will only have to set up the Oauth stuff once, which is convenient if you have different uses for your app. So use the follwing commands after editing the praw.ini file:
+With the help of the get_secret.py file, you will only have to set up the Oauth stuff once, which is convenient if you have different uses for your app. So use the following commands after editing the praw.ini file:
 ```
 python get_secret.py
 ```
